@@ -92,3 +92,98 @@ $RECYCLE.BIN/
 *.tmp
 *.bak
 *.swp
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# =========================
+# Virtual Environments
+# =========================
+venv/
+.venv/
+env/
+ENV/
+artimis/
+artimes/
+python-env/
+
+# =========================
+# Environment & Secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+*.out
+
+# =========================
+# Database
+# =========================
+*.sqlite3
+*.db
+postgres-data/
+pgdata/
+
+# =========================
+# Docker
+# =========================
+docker-compose.override.yml
+.dockerignore
+
+# =========================
+# MCP / FastMCP
+# =========================
+.mcp/
+mcp_state/
+*.mcp.log
+
+# =========================
+# Cache / Runtime Files
+# =========================
+.cache/
+.pytest_cache/
+.mypy_cache/
+ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# =========================
+# IDEs / Editors
+# =========================
+.vscode/
+.idea/
+*.iml
+
+# =========================
+# OS-specific
+# =========================
+# Windows
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+
+# =========================
+# Misc
+# =========================
+*.tmp
+*.bak
+*.swp
