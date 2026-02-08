@@ -199,3 +199,5 @@ POSTGRES_PORT=5432
 SECRET_KEY=super-secret-key-change-this
 ALGORITHM=HS256
 ACCESS_TOKEN_EXPIRE_MINUTES=30
+
+https://gemini.google.com/share/ead1a9c60928
