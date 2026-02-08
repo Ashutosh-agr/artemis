@@ -187,3 +187,15 @@ $RECYCLE.BIN/
 *.tmp
 *.bak
 *.swp
+
+
+POSTGRES_USER=artemis
+POSTGRES_PASSWORD=secret123
+POSTGRES_DB=artemis_db
+POSTGRES_HOST=localhost
+POSTGRES_PORT=5432
+
+
+SECRET_KEY=super-secret-key-change-this
+ALGORITHM=HS256
+ACCESS_TOKEN_EXPIRE_MINUTES=30
